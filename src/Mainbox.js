@@ -73,7 +73,7 @@ function Mainbox() {
 
                 <div className="mycard skill  ">
                     <div className='innercard2 inner-div'>
-
+                    <img className="edu_img" src='/images/certifiy.png'></img>
                     </div>
                     <div className='innercard inner-div'>
                         <h1>Certifications</h1>
