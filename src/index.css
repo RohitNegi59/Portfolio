@@ -46,6 +46,7 @@ flex-wrap: wrap;
   height: 100%;
   background-color: aquamarine;
   height: 450px;
+  background-image: url();
 }
 
 .main_desc {
