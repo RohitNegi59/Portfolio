@@ -63,7 +63,7 @@ function Mainbox() {
                         </ul>
                     </div>
                     <div className='innercard2 inner-div'>
-
+                    <img className="edu_img" src='/images/project.png'></img>
                     </div>
 
                 </div>
