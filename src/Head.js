@@ -16,10 +16,10 @@ function Head() {
                     <a  className="nav-link active" aria-current="page" href="index.html">Home</a>
                 </li>
                 <li  className="nav-item">
-                    <a  className="nav-link" href="Quiz.html">My Resume</a>
+                    <a  className="nav-link" href="Resume.pdf">My Resume</a>
                 </li>
                 <li  className="nav-item">
-                    <a  className="nav-link" href="Quiz.html">Contact</a>
+                    <a  className="nav-link" href="#">Contact</a>
                 </li>
             </ul>
             
