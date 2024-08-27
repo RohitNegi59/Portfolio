@@ -5,7 +5,7 @@ function Mainbox() {
         <>
             <div className='mainbox'>
                 <div className="mycard Education ">
-                    <div className='innercard'>
+                    <div className='innercard inner-div'>
                         <ul><h1>Education</h1>
                             <li><h1>MCA (Master of Computer Application) from Lovely Professional University
                                 Phagwara-(2022-2024). </h1></li>
@@ -16,17 +16,17 @@ function Mainbox() {
                             <li><h1>High School(10th class) from St Thomas Academy Saharanpur-(2016)</h1>
                             </li>
                         </ul></div>
-                    <div className='innercard2'>
+                    <div className='innercard2 inner-div'>
 
                     </div>
                 </div>
 
 
                 <div className="mycard skill  ">
-                    <div className='innercard2'>
+                    <div className='innercard2 inner-div'>
 
                     </div>
-                    <div className='innercard'>
+                    <div className='innercard inner-div'>
                         <ul><h1>Skill</h1>
                             <li><h1> Programming Languages: Python ,C++,C,Java  </h1></li>
                             <li><h1></h1></li>
@@ -45,7 +45,7 @@ function Mainbox() {
 
                 <div className="mycard project  ">
 
-                    <div className='innercard'>
+                    <div className='innercard inner-div'>
                         <ul><h1>Project</h1>
                             <li><h1> Playbook - web application for children to enhance creativity and learning. Built with React.js
                                 for an engaging user interface  </h1></li>
@@ -59,7 +59,7 @@ function Mainbox() {
 
                         </ul>
                     </div>
-                    <div className='innercard2'>
+                    <div className='innercard2 inner-div'>
 
                     </div>
 
@@ -68,10 +68,10 @@ function Mainbox() {
 
 
                 <div className="mycard skill  ">
-                    <div className='innercard2'>
+                    <div className='innercard2 inner-div'>
 
                     </div>
-                    <div className='innercard'>
+                    <div className='innercard inner-div'>
                     <ul><h1>Certifications</h1>
                                 <li><h1>Fundamental of HTML from Great Learning Aug 26 2024
                                 </h1></li>

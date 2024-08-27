@@ -7,14 +7,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1{font-family: 'Times New Roman', Times, serif;
+h1 {
+  font-family: 'Times New Roman', Times, serif;
   font-size: x-large;
 }
 
 .mycard {
-display: flex;
-flex-wrap: wrap;
-  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   background-color: aquamarine;
 
 }
@@ -34,22 +35,33 @@ flex-wrap: wrap;
 
 .Banner {
   display: flex;
+  flex-wrap: wrap;
   background-color: aquamarine;
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-bottom: 50px;
-  flex-wrap: wrap;
+}
+
+.inner-div {
+  flex: 1 1 300px;
 }
 
 .main_img {
+
   width: 50%;
   height: 100%;
   background-color: aquamarine;
   height: 450px;
-  background-image: url();
+  background-image: url(/public/images/pn4.png);
+  background-size: cover;
 }
 
 .main_desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
   width: 50%;
   height: 100%;
   background-color: rgb(115, 209, 177);
@@ -61,6 +73,7 @@ flex-wrap: wrap;
   height: 100%;
   background-color: rgb(115, 209, 177);
 }
+
 .innercard2 {
   width: 50%;
   height: 100%;
@@ -75,6 +88,6 @@ flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 50px;
   margin-bottom: 50px;
 }
