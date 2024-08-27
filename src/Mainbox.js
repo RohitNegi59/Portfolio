@@ -6,7 +6,8 @@ function Mainbox() {
             <div className='mainbox'>
                 <div className="mycard Education ">
                     <div className='innercard inner-div'>
-                        <ul><h1>Education</h1>
+                    <h1>Education</h1>
+                        <ul>
                             <li><h2>MCA (Master of Computer Application) from Lovely Professional University
                                 Phagwara-(2022-2024). </h2></li>
                             <li><h2>B.A (Bachelor of Art) from Chaudhary Charan University
@@ -27,7 +28,8 @@ function Mainbox() {
                     <img className="edu_img" src='/images/Skill.png'></img>
                     </div>
                     <div className='innercard inner-div'>
-                        <ul><h1>Skill</h1>
+                    <h1>Skill</h1>
+                        <ul>
                             <li><h2> Programming Languages: Python ,C++,C,Java  </h2></li>
                             <li><h2></h2></li>
                             <li><h2>Web Development: HTML , CSS , JavaScript , SQL ,React js </h2>
@@ -46,7 +48,8 @@ function Mainbox() {
                 <div className="mycard project  ">
 
                     <div className='innercard inner-div'>
-                        <ul><h1>Project</h1>
+                    <h1>Project</h1>
+                        <ul>
                             <li><h2> Playbook - web application for children to enhance creativity and learning. Built with React.js
                                 for an engaging user interface  </h2></li>
                             <li><h2></h2></li>
@@ -72,7 +75,8 @@ function Mainbox() {
 
                     </div>
                     <div className='innercard inner-div'>
-                    <ul><h1>Certifications</h1>
+                    <h1>Certifications</h1>
+                    <ul>
                                 <li><h2>Fundamental of HTML from Great Learning Aug 26 2024
                                 </h2></li>
                                 <li><h2>Fundamentals of Python Programmingat from Ybi Foundation in Oct 31 2023.</h2></li>
