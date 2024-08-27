@@ -8,13 +8,19 @@ body {
 }
 
 h1 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Orbitron,'Times New Roman', Times, serif;
   font-size: x-large;
+}
+h2{
+  font-family: polySans, Helvetica, sans-serif;
+  font-size: larger;
 }
 
 .mycard {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   background-color: aquamarine;
 
@@ -69,14 +75,20 @@ h1 {
 }
 
 .innercard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50%;
-  height: 100%;
+  height: 600px;
   background-color: rgb(115, 209, 177);
 }
 
 .innercard2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50%;
-  height: 100%;
+  height: 600px;
   background-color: aquamarine;
 }
 
@@ -90,4 +102,8 @@ h1 {
   flex-wrap: wrap;
   gap: 50px;
   margin-bottom: 50px;
+}
+.edu_img{
+  width:100% ;
+  height:75% ;
 }
